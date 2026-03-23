@@ -3,11 +3,16 @@ node_modules/
 
 # next.js
 .next/
+.next-dev.log
+.next-dev.pid
 out/
 
 # build
 build/
 dist/
+
+# npm
+.npm-cache/
 
 # env files (keep .env.example)
 .env
@@ -43,3 +48,6 @@ tsconfig.tsbuildinfo
 
 # vercel
 .vercel
+
+# Claude worktrees
+.claude/
